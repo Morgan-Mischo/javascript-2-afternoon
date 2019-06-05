@@ -31,11 +31,12 @@ me.name;
 
 let favoriteThings =
 {
-  band: 'Billie Eilish', 
-  food: 'spanakopita', 
-  person: 'Taylor Hill', 
-  movie: 'V for Vendetta', 
-  holiday: 'Birthday'
+  band : 'Billie Eilish', 
+  food : 'spanakopita', 
+  person : 'Taylor Hill',
+  book : 'The Night Circus', 
+  movie : 'V for Vendetta', 
+  holiday : 'Birthday'
 }
 
 
@@ -44,14 +45,16 @@ let favoriteThings =
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = 'Atticus'; 
+favoriteThings.brand = 'Ann Taylor'; 
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
+favoriteThings.food = 'Chicken Nuggets'; 
+favoriteThings.book = 'Harry Potter'; 
 
 ////////// PROBLEM 3 //////////
 
