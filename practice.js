@@ -24,11 +24,20 @@ me.name;
 ////////// PROBLEM 2 //////////
 
 /*
-  Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday.
+  Make a 'favoriteThings' object that contains the following keys:
+   band, food, person, book, movie, holiday.
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings =
+{
+  band: 'Billie Eilish', 
+  food: 'spanakopita', 
+  person: 'Taylor Hill', 
+  movie: 'V for Vendetta', 
+  holiday: 'Birthday'
+}
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
