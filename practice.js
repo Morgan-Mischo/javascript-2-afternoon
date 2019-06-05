@@ -14,7 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me =
+{
+  name : 'Morgan', 
+  age : '19'
+}
+me.name; 
 
 ////////// PROBLEM 2 //////////
 
