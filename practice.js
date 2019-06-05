@@ -80,7 +80,7 @@ backPack.color = 'gray';
   After you do the above, alert your entire backPack object.
 */
 
-//Code here
+alert(backPack); 
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -109,7 +109,9 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2.slice; 
+user2.name = 'Bryan G. Smith'; 
+user2.email = 'bryan.smith@devmounta.in'; 
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -120,20 +122,35 @@ var user2 = {
   Create an empty object called methodCollection.
 */
 
-//Code Here
+let methodCollection =
+{
+
+}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
-//Code Here
+methodCollection.alertHello = function()
+{
+  alert('hello'); 
+}
+
+methodCollection.logHello = function()
+{
+  console.log('hello'); 
+}
+
+
+
 
 /*
   Now call your alertHello and logHello methods.
 */
 
-//Code Here
+methodCollection.alertHello(); 
+methodCollection.logHello(); 
 
 ////////// PROBLEM 6 //////////
 
@@ -142,13 +159,34 @@ var user2 = {
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+
+function makePerson(name, birthday, ssn)
+{
+  let person =
+  {
+    name, 
+    birthday, 
+    ssn
+  }
+  return person; 
+}
 
 ////////// PROBLEM 7 //////////
 
 /*
-  Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object.
-  Return that object so that whenever you invoke makeCard, you get a brand new credit card.
+  Create a function called makeCard which takes in cardNumber, 
+  expirationDate, and securityCode to make a Credit Card object.
+  Return that object so that whenever you invoke makeCard, you get a 
+  brand new credit card.
 */
 
-//Code Here
+function makeCard(cardNumber, expirationDate, securityCode)
+{
+  let creditCard =
+  {
+    cardNumber, 
+    expirationDate, 
+    securityCode
+  }
+  return creditCard; 
+}
